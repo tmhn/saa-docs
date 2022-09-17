@@ -41,9 +41,10 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/">
-          <a className="block w-10 overflow-hidden lg:w-auto">
+          <a className="flex flex-row items-center w-10 overflow-hidden lg:w-auto">
             <span className="sr-only">Home page</span>
             <Logo />
+            <h1 className="font-display text-xl tracking-tight text-slate-900 dark:text-white ml-4 sm:visible">Solutions Architect Associate</h1>
           </a>
         </Link>
       </div>
@@ -52,7 +53,7 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end space-x-6 sm:space-x-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com">
+        <Link href="https://github.com/tmhn/saa-docs">
           <a className="group">
             <span className="sr-only">GitHub</span>
             <svg
