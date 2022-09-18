@@ -44,7 +44,7 @@ export function Hero() {
                 Solutions Architect Associate Docs.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Tom's notes and docs for the SAA exam.
+                Tom<span>&#39;</span>s notes and docs for the SAA exam.
               </p>
               <div className="mt-8 flex space-x-4 md:justify-center lg:justify-start">
                 <ButtonLink href="/">Get started</ButtonLink>

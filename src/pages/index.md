@@ -1,6 +1,6 @@
 ---
 title: Getting started
-pageTitle: AWS Solutions Architect Associate - Tom's Docs.
+pageTitle: TH - AWS Solutions Architect Associate - Tom's Docs.
 description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
 ---
 
